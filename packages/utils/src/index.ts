@@ -1,1 +1,4 @@
-export const a =1;
+const hello = 'hello';
+const world = 'world';
+
+export default hello + world;

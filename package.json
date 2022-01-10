@@ -5,7 +5,7 @@
   ],
   "private": true,
   "scripts": {
-    "start": "lerna bootstrap --npm-client=yarn --use-workspaces",
+    "start": "lerna bootstrap",
     "release": "lerna publish",
     "release:beta": "lerna publish --canary --pre-dist-tag=beta --preid beta --yes",
     "build": "lerna run build"

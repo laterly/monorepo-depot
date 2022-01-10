@@ -1,4 +1,18 @@
 {
+  "command": {
+    "bootstrap": {
+      "npmClientArgs": ["--npm-client=yarn", "--use-workspaces"]
+    },
+    "version": {
+      "allowBranch": ["master"],
+      "amend": false,
+      "conventionalCommits": true
+    },
+    "publish": {
+      "verifyAccess": false,
+      "registry": "http://npm.jsany.org"
+    }
+  },
   "useWorkspaces": true,
   "version": "independent",
   "npmClient": "yarn"
