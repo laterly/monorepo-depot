@@ -1,6 +1,6 @@
 {
   "name": "@laterly-js/utils",
-  "version": "1.0.1-beta.2+4c9763c",
+  "version": "1.0.0",
   "main": "./dist/index.cjs.js",
   "module": "./dist/index.esm.js",
   "types": "./dist/index.d.ts",
@@ -47,6 +47,5 @@
     "prettier": "^2.5.1",
     "rollup": "^2.63.0",
     "typescript": "^4.5.4"
-  },
-  "gitHead": "4c9763c6f170f186edef0a7684347531b851748d"
+  }
 }
